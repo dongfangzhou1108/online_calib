@@ -2,7 +2,7 @@
 
 # imgHandler
 gaussian_size: 5
-canny_threshold: 30
+canny_threshold: 50
 contours_threshold: 50
 
 # pcHandler
@@ -30,3 +30,5 @@ Tcl_real: !!opencv-matrix
        6.0215900000000003e-03, -2.6669399999999999e-01, 0., 0., 0., 1. ]
 find_size: 3
 search_radius: 5
+delta_theta: 5
+delta_dx: 0.2
